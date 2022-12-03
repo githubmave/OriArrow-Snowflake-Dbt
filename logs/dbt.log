@@ -1,0 +1,180 @@
+
+
+============================== 2022-11-10 07:43:57.608149 | 266ee725-b3b1-44b2-b44f-54d252e189f3 ==============================
+[0m07:43:57.608149 [info ] [MainThread]: Running with dbt=1.2.2
+[0m07:43:57.609152 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbtProject1', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m07:43:57.610153 [debug] [MainThread]: Tracking: tracking
+[0m07:43:57.610153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CEBD74F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CEBD7070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CEBD7400>]}
+[0m07:43:57.612171 [debug] [MainThread]: Starter project path: C:\Users\Public\Mave\DBT-SNOWFLAKE-TEST\course\venv\lib\site-packages\dbt\include\starter_project
+[0m07:46:02.436826 [info ] [MainThread]: Profile dbtProject1 written to C:\Users\chanz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:46:02.437826 [info ] [MainThread]: 
+Your new dbt project "dbtProject1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:46:02.440828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C92247F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CEBBFF40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234CEBD7700>]}
+[0m07:46:02.441837 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-10 08:01:12.971240 | bc04f6f6-c9c4-4d7b-8015-53273d4b7f1b ==============================
+[0m08:01:12.971240 [info ] [MainThread]: Running with dbt=1.2.2
+[0m08:01:12.972240 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbtProject2', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m08:01:12.972240 [debug] [MainThread]: Tracking: tracking
+[0m08:01:12.973233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3B80074F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3B8007EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3B8007400>]}
+[0m08:01:12.974223 [debug] [MainThread]: Starter project path: C:\Users\Public\Mave\DBT-SNOWFLAKE-TEST\course\venv\lib\site-packages\dbt\include\starter_project
+[0m08:02:11.836558 [info ] [MainThread]: Profile dbtProject2 written to C:\Users\chanz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:02:11.837561 [info ] [MainThread]: 
+Your new dbt project "dbtProject2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:02:11.839531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3B26247F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3B7FEFF40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3B8007700>]}
+[0m08:02:11.840534 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-10 08:25:46.807905 | 5b52d921-419b-4c09-8a85-11435740c71b ==============================
+[0m08:25:46.807905 [info ] [MainThread]: Running with dbt=1.2.2
+[0m08:25:46.808903 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbtProject3', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m08:25:46.808903 [debug] [MainThread]: Tracking: tracking
+[0m08:25:46.808903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5545E75E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5545E7EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5545E7430>]}
+[0m08:25:46.810902 [debug] [MainThread]: Starter project path: C:\Users\Public\Mave\DBT-SNOWFLAKE-TEST\course\venv\lib\site-packages\dbt\include\starter_project
+[0m08:27:02.465112 [info ] [MainThread]: Profile dbtProject3 written to C:\Users\chanz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:27:02.466107 [info ] [MainThread]: 
+Your new dbt project "dbtProject3" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:27:02.469105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5545AEFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D54EC24EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D560781A90>]}
+[0m08:27:02.469105 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-10 08:27:19.132555 | 18917606-f5bb-413e-8588-e10c9ca0786d ==============================
+[0m08:27:19.132555 [info ] [MainThread]: Running with dbt=1.2.2
+[0m08:27:19.133555 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbtProject4', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m08:27:19.133555 [debug] [MainThread]: Tracking: tracking
+[0m08:27:19.134539 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D61516D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D6151790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D61515E0>]}
+[0m08:27:19.135540 [debug] [MainThread]: Starter project path: C:\Users\Public\Mave\DBT-SNOWFLAKE-TEST\course\venv\lib\site-packages\dbt\include\starter_project
+
+
+============================== 2022-11-10 08:29:15.738343 | 2b8697b2-d5db-40b5-ab1d-d3c2c1bfc5a7 ==============================
+[0m08:29:15.738343 [info ] [MainThread]: Running with dbt=1.2.2
+[0m08:29:15.739014 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'Project4', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m08:29:15.739014 [debug] [MainThread]: Tracking: tracking
+[0m08:29:15.739014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134374616D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013437461790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134374615E0>]}
+[0m08:29:15.741061 [debug] [MainThread]: Starter project path: C:\Users\Public\Mave\DBT-SNOWFLAKE-TEST\course\venv\lib\site-packages\dbt\include\starter_project
+[0m08:30:07.193328 [info ] [MainThread]: Profile Project4 written to C:\Users\chanz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:30:07.195028 [info ] [MainThread]: 
+Your new dbt project "Project4" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:30:07.197054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013437448DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013437448D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013437448FA0>]}
+[0m08:30:07.198053 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-17 04:05:17.854344 | 127c4e74-b94e-453f-80b7-039a692157b5 ==============================
+[0m04:05:17.854344 [info ] [MainThread]: Running with dbt=1.2.2
+[0m04:05:17.856213 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbtProject4', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m04:05:17.856213 [debug] [MainThread]: Tracking: tracking
+[0m04:05:17.856977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B0AC2C16D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B0AC2C1790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B0AC2C15E0>]}
+[0m04:05:17.857995 [info ] [MainThread]: A project called dbtProject4 already exists here.
+[0m04:05:17.858995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B0AC2A8B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B0AC2A8D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B0AC2A8670>]}
+[0m04:05:17.858995 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-27 00:47:17.163912 | d0656e45-4d88-4197-b844-5aef05dab6f2 ==============================
+[0m00:47:17.163912 [info ] [MainThread]: Running with dbt=1.2.2
+[0m00:47:17.165912 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'asm2Project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m00:47:17.165912 [debug] [MainThread]: Tracking: tracking
+[0m00:47:17.165912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223A9EE1640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223A9EE1700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223A9EE17F0>]}
+[0m00:47:17.167919 [debug] [MainThread]: Starter project path: C:\Users\Public\Mave\DBT-SNOWFLAKE-TEST\course\venv\lib\site-packages\dbt\include\starter_project
+[0m00:49:39.138883 [info ] [MainThread]: Profile asm2Project written to C:\Users\chanz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:49:39.140141 [info ] [MainThread]: 
+Your new dbt project "asm2Project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:49:39.144168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223A9EC8A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223A9EC8B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223A9EC8730>]}
+[0m00:49:39.144168 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-12-01 10:14:42.053991 | 9c769fd7-7b9e-4fb3-bfb1-b1cc542058de ==============================
+[0m10:14:42.053991 [info ] [MainThread]: Running with dbt=1.2.2
+[0m10:14:42.054976 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\chanz\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbtProject5', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m10:14:42.055974 [debug] [MainThread]: Tracking: tracking
+[0m10:14:42.056973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002056F7A16D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002056F7A1790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002056F7A15E0>]}
+[0m10:14:42.058982 [debug] [MainThread]: Starter project path: C:\Users\Public\Mave\DBT-SNOWFLAKE-TEST\course\venv\lib\site-packages\dbt\include\starter_project
+[0m10:18:33.503269 [info ] [MainThread]: Profile dbtProject5 written to C:\Users\chanz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:18:33.504275 [info ] [MainThread]: 
+Your new dbt project "dbtProject5" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:18:33.508265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002056F788DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002056F788940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002056F788FA0>]}
+[0m10:18:33.508265 [debug] [MainThread]: Flushing usage events
